@@ -3,7 +3,7 @@
   "inventoryIcon" : "shotgunicon.png",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
-  "level" : 0,
+  "level" : 666,
   "rarity" : "Rare",
   "inspectionKind" : "gun",
   "image" : "shotgun.png",
