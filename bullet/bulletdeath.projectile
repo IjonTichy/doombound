@@ -1,0 +1,18 @@
+{
+  "projectileName" : "doom_bulletdeath",
+  "frames" : "bulletdeath.png",
+  "animationCycle" : 0.335,
+  "level" : 0,
+  "frameNumber" : 3,
+  "speed" : 0,
+  "power": 0,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "piercing" : true,
+  "damageKind" : "default",
+
+  "lightColor" : [96, 80, 0],
+  "flickerDistance" : 0.04,
+  "flickerStrength" : 0.01
+}
+

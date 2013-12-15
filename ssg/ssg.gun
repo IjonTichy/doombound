@@ -1,0 +1,31 @@
+{
+  "itemName" : "doom_ssg",
+  "inventoryIcon" : "ssgicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 0,
+  "rarity" : "Rare",
+  "inspectionKind" : "gun",
+  "image" : "ssg.png",
+  "handPosition" : [-3.5, 0],
+  "firePosition" : [0, 3],
+
+  "description": "Forgoing state of the art weapons technology for... well, this.",
+  "shortdescription": "Super Shotgun",
+
+  "fireTime" : 1.428,
+  "twoHanded" : true,
+
+  "spread": 20,
+  "accuracy": -100,
+
+  "projectileType" : "doom_bullet",
+  "projectile" : { "power" : 10 },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/bulletflash/flash.animation", 
+    "fireSound" : [ { "file" : "/ssg/ssg.ogg" } ]
+  }
+}
+
+

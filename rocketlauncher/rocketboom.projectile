@@ -1,0 +1,19 @@
+{
+  "projectileName" : "doom_rocketboom",
+  "frames" : "explosion.png",
+  "animationCycle" : 0.4,
+  "level" : 1,
+  "frameNumber" : 3,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "damagePoly" : [ [-15, 0], [-10, -10], [0, -15], [10, -10], [15, 0], [10, 10], [0, 15], [-10, 10] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "power": 32,
+  "universalDamage": true,
+  "damageKind" : "default",
+
+  "lightColor" : [255, 192, 128],
+  "flickerDistance" : 1,
+  "flickerStrength" : 0.5
+}

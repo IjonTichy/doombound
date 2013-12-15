@@ -1,0 +1,15 @@
+{
+  "projectileName" : "doom_rocketboom2",
+  "frames" : "explosion.png",
+  "animationCycle" : 0.4,
+  "level" : 1,
+  "frameNumber" : 3,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "damagePoly" : [ [-30, 0], [-20, -20], [0, -30], [20, -20], [30, 0], [20, 20], [0, 30], [-20, 20] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "power": 32,
+  "universalDamage": true,
+  "damageKind" : "default"
+}

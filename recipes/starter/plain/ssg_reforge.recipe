@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "doom_ssg", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "doom_ssg",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all", "guns", "weapons" ]
+}

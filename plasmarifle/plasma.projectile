@@ -1,0 +1,26 @@
+{
+  "projectileName" : "doom_plasmaball",
+  "frames" : "plasmashot.png",
+  "animationCycle" : 0.5,
+  "energyCostPerDamagePoint" : 0,
+  "frameNumber" : 1,
+  "damageKindImage" : "plasmadamage.png",
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/plasmarifle/plasmadeath.config"
+    }
+  ],
+
+  "power" : 5,
+  "level" : 1,
+  "speed" : 55,
+
+  "lightColor" : [128, 128, 255],
+  "flickerDistance" : 0.01,
+  "flickerStrength" : 0.01,
+
+  "damagePoly" : [ [-9, 9], [9, 9], [9, -9], [-9, -9] ],
+  "damageKind" : "default"
+}

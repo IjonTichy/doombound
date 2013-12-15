@@ -1,0 +1,31 @@
+{
+  "itemName" : "doom_shotgun",
+  "inventoryIcon" : "shotgunicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 0,
+  "rarity" : "Rare",
+  "inspectionKind" : "gun",
+  "image" : "shotgun.png",
+  "handPosition" : [-3.5, 0],
+  "firePosition" : [0, 3],
+
+  "description": "Nuclear fusion? Check. Semi-automatic shotguns? You're crazy.",
+  "shortdescription": "Shotgun",
+
+  "fireTime" : 1.036,
+  "twoHanded" : true,
+
+  "spread": 7,
+  "accuracy": 5,
+
+  "projectileType" : "doom_bullet",
+  "projectile" : { "power" : 10 },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/bulletflash/flash.animation", 
+    "fireSound" : [ { "file" : "/shotgun/shotgun.ogg" } ]
+  }
+}
+
+

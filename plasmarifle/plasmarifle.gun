@@ -1,0 +1,27 @@
+{
+  "itemName" : "doom_plasmarifle",
+  "inventoryIcon" : "plasmaicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 0,
+  "rarity" : "Rare",
+  "inspectionKind" : "gun",
+  "image" : "plasmarifle.png",
+  "handPosition" : [-3.5, -3],
+  "firePosition" : [0, 1],
+
+  "description": "The ultimate in demon-frying technology.",
+  "shortdescription": "Plasma Rifle",
+
+  "fireTime" : 0.084,
+  "twoHanded" : true,
+
+  "projectileType" : "doom_plasmaball",
+  "projectile" : { "power" : 22 },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.animation",
+    "fireSound" : [ { "file" : "/plasmarifle/plasma.ogg" } ]
+  }
+}
+

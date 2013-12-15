@@ -1,0 +1,28 @@
+{
+  "itemName" : "doom_rocketlauncher",
+  "inventoryIcon" : "rlicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 0,
+  "rarity" : "Rare",
+  "inspectionKind" : "gun",
+  "image" : "rocketlauncher.png",
+  "handPosition" : [-3.5, -3],
+  "firePosition" : [0, 0],
+
+  "description": "It makes things go kaboom.",
+  "shortdescription": "Rocket Launcher",
+
+  "fireTime" : 0.56,
+  "twoHanded" : true,
+
+  "projectileType" : "doom_rocket",
+  "projectile" : { "power" : 90 },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.animation",
+    "fireSound" : [ { "file" : "/rocketlauncher/rocketfire.ogg" } ]
+  }
+}
+
+

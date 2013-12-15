@@ -1,0 +1,29 @@
+{
+  "projectileName" : "doom_shotgunshot",
+  "frames" : "bullet.png",
+  "animationCycle" : 0,
+  "frameNumber" : 1,
+  "energyCostPerDamagePoint" : 0,
+  "damageKindImage" : "bulletdamage.png",
+  "timeToLive": 0,
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/shotgun/actualshot.config"
+    }
+  ],
+
+  "power" : 5,
+  "level" : 1,
+  "speed" : 100,
+
+  "damagePoly" : [ [1, 1], [-1, 1], [-1, -1], [1, -1] ],
+  "damageKind" : "default",
+
+  "lightColor" : [48, 40, 0],
+  "flickerDistance" : 0.04,
+  "flickerStrength" : 0.01
+}
+
+

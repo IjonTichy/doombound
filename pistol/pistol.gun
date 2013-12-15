@@ -1,0 +1,27 @@
+{
+  "itemName" : "doom_pistol",
+  "inventoryIcon" : "pistolicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 0,
+  "rarity" : "Rare",
+  "inspectionKind" : "gun",
+  "image" : "pistol.png",
+  "handPosition" : [-3.5, -3],
+  "firePosition" : [0, 3],
+
+  "description": "Obsolete by the time you get it.",
+  "shortdescription": "Pistol",
+
+  "fireTime" : 0.392,
+  "twoHanded" : false,
+
+  "projectileType" : "doom_bullet",
+  "projectile" : { "power" : 10 },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/bulletflash/pistolflash.animation", 
+    "fireSound" : [ { "file" : "/bullet/bullet.ogg" } ]
+  }
+}
+

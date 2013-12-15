@@ -1,0 +1,28 @@
+{
+  "projectileName" : "doom_rocket",
+  "frames" : "rocket.png",
+  "animationCycle" : 0.25,
+  "energyCostPerDamagePoint" : 0,
+  "frameNumber" : 1,
+  "damageKindImage" : "plasmadamage.png",
+  "universalDamage": true,
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/rocketlauncher/rocketboom.config"
+    }
+  ],
+
+  "power" : 128,
+  "level" : 1,
+  "speed" : 55,
+
+  "lightColor" : [255, 224, 192],
+  "flickerDistance" : 0.05,
+  "flickerStrength" : 0.01,
+
+  "damagePoly" : [ [-18, 8], [18, 8], [18, -8], [-18, -8] ],
+
+  "damageKind" : "default"
+}
